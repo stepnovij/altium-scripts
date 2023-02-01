@@ -1,37 +1,35 @@
-/** This is a script to update components in the SCHLIB
-
-Sets designators: 
-1.   X=0, Y=100
-2.   Autoposition On or Off (?)
-
-Sets comments: 
-
-1.   X=0, Y=0
-2.   Autoposition On or Off (?)
-
-Sets Pins to:
-
-1. Length to desired length
-2. Name Position Mode = Custom (?)
-3. Name Margin = Margin
-4. Name Font = Desired Font Type and Size
-5. Designator Margin = desired Margin
-5. Designator Font = Desired Font Type and Size
-
-Sets Rectangles to:
-
-1. Boarder Width = desired width
-2. Color = desired color
-3. Fill Color = desired color 
-
-Sets Polygons to:
-
-1. Line Width = desired width
-2. Color = desired color
-3. Fill Color = desired color 
-
-**/
-
+// This is a script to update components in the SCHLIB
+//
+// Sets designators: 
+// 1.   X=0, Y=100
+// 2.   Autoposition On or Off (?)
+//
+// Sets comments: 
+//
+// 1.   X=0, Y=0
+// 2.   Autoposition On or Off (?)
+//
+// Sets Pins to:
+// 
+// 1. Length to desired length
+// 2. Name Position Mode = Custom (?)
+// 3. Name Margin = Margin
+// 4. Name Font = Desired Font Type and Size
+// 5. Designator Margin = desired Margin
+// 6. Designator Font = Desired Font Type and Size
+// 
+// Sets Rectangles to:
+// 
+// 1. Boarder Width = desired width
+// 2. Color = desired color
+// 3. Fill Color = desired color 
+// 
+// Sets Polygons to:
+// 
+// 1. Line Width = desired width
+// 2. Color = desired color
+// 3. Fill Color = desired color 
+// 
 
 // Function to get font id by font name and height
 Function GetFontId(Name: TDynamicString, Height : Integer) : TFontID;
