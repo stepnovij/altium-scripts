@@ -136,7 +136,7 @@ Begin
                         While Pin <> Nil Do
                         Begin
                              // Set Pin Length to desired length
-                             Pin.PinLength := 2000001;
+                             Pin.PinLength := MilsToCoord(2000);
                              // Set Pin Name Position Mode to Custom
                              Pin.Name_PositionMode := 1;
                              // Set Pin Name Margin to desired Margin
