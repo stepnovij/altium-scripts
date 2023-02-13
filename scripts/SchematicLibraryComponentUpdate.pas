@@ -143,7 +143,10 @@ Begin
                              Pin.Name_CustomPosition_Margin := 1;
                              // Set required font
                              Pin.Name_CustomFontID := GetFontId('Times New Roman', 11);
-
+                             // Designator Custom Position Margin
+                             Pin.Designator_CustomPosition_Margin := MilsToCoord(0);
+                             // Designartor Custom Font
+                             Pin.Designator_CustomFontId := GetFontId('Times New Roman', 11);
                              Pin := PinIterator.NextSchObject;
                         End;
             Finally
